@@ -12,37 +12,34 @@
         AllowsTransparency="True">
     <Border  Background="#272537"
              CornerRadius="20">
-        <Grid IsEnabled="False">
+        <Grid IsEnabled="False" HorizontalAlignment="Left" Width="920" Margin="5,-5,0,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200">
-
                 </ColumnDefinition>
-                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="75">
 
-                </RowDefinition>
-                <RowDefinition />
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <TextBlock Text="Elysian"
-           VerticalAlignment="Center"
-           HorizontalAlignment="Center"
-           Foreground="White"
-           FontSize="22"
-           Margin="20, 0,0,0"/>
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Foreground="White"
+                       FontSize="22"
+                       Margin="20,0,0,0"/>
 
-            <StackPanel Grid.Row="1">
+            <StackPanel>
                 <RadioButton Content="Home"
                              Height="50"
                              Foreground="White"
-                             FontSize="14"/>    
+                             FontSize="14"/>
 
 
             </StackPanel>
 
         </Grid>
-        
+
     </Border>
 </Window>
