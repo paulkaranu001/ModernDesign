@@ -9,8 +9,8 @@ namespace ModernDesign.Core
 {
     internal class RelayCommand : ICommand
     {
-        private Action<object> _execute;
-        private Func<object, bool> _canexecute;
+        private readonly Action<object> _execute;
+        private readonly Func<object, bool> _canexecute;
 
         public event EventHandler CanExecuteChanged
         {
