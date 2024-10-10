@@ -14,8 +14,8 @@
              CornerRadius="20">
         <Grid IsEnabled="False" HorizontalAlignment="Left" Width="920" Margin="5,5,0,-5">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="200">
-                </ColumnDefinition>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/> 
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
@@ -53,10 +53,15 @@
 
             <TextBox Width="250"
                      Height="40"
-                     VerticalAlignment="Top"
+                     VerticalAlignment="Center"
                      HorizontalAlignment="Left"
                      Margin="5"
-                     Grid.Column="1"/>
+                     Grid.Column="1"
+                     Style="{StaticResource ModernTextbox}"                   
+                     />
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10"/>
 
         </Grid>
 
