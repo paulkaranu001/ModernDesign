@@ -32,12 +32,11 @@
                                 <TextBlock.Style>
                                     <Style TargetType="{x:Type TextBlock}">
                                         <Style.Triggers>
-                                            <DataTrigger Binding="{Binding Text, ElementName=searchBox}" Value = "">
-                                                <Setter Property="Visibility" Value="Visible"
-                                                
+                                            <DataTrigger Binding="{Binding Text, ElementName=searchBox}" Value ="">
+                                                <Setter Property="Visibility" Value="Visible"/>
                                             </DataTrigger>
                                         </Style.Triggers>
-                                        <Setter Property="visibility" Value="Hidden"/>
+                                        <Setter Property="Visibility" Value="Hidden"/>
                                     </Style>
                                     
                                 </TextBlock.Style>
