@@ -83,6 +83,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MVM\ViewModel\HomeViewModel.cs" />
     <Compile Include="MVM\ViewModel\MainViewModel.cs" />
     <Compile Include="MVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
