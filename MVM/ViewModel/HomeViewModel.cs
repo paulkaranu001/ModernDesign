@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModernDesign.MVM.ViewModel
 {
-    internal class HomeViewModel
+ class HomeViewModel
     {
     }
 }
